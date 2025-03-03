@@ -1,4 +1,4 @@
 [[redirects]]
-from = "/*"
+from = "/charity-website"
 to = "/index.html"
-status = 200
+status = 301
