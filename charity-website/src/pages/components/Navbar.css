@@ -1,0 +1,26 @@
+
+.navbar-custom {
+  background-color: #153f1b!important;  
+  color: white !important;  
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color: white !important;  
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+  color: #006400 !important;  
+}
+
+.navbar-custom .navbar-brand {
+  color: white !important; 
+}
+
+.navbar-custom .navbar-brand:hover {
+  color: #006400 !important; 
+}
+
+.navbar-toggler-icon {
+  background-color: white !important;  
+}
+
