@@ -1,10 +1,23 @@
+body {
+  background-image: url("../media/donatebcg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Keeps the image fixed while scrolling */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Center the donation container with a slight transparency */
 .donate-container {
-    background-image: url("../media/donatebcg.jpg"); 
   max-width: 900px;
   margin: auto;
   padding: 20px;
   text-align: center;
-  font-family: Arial, sans-serif;
+  background: rgba(255, 255, 255, 0.85); /* Light background to ensure readability */
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 h1, h2, h3 {
@@ -17,27 +30,24 @@ p {
   line-height: 1.6;
 }
 
-/* Section 1: Why We Need Your Help */
-.donation-intro {
-  background-color: #f9f9f9;
+/* Section Styling */
+.donation-intro,
+.volunteer-section,
+.financial-donations {
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 30px;
   border-radius: 8px;
   margin-bottom: 30px;
 }
 
-/* Section 2: Donation Options */
-.donation-options {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
+/* Donation Box */
 .donation-box {
-  background-color: #eef5f9;
+  background-color: rgba(238, 245, 249, 0.9);
   padding: 20px;
   border-radius: 8px;
 }
 
+/* Donation Images */
 .donation-images {
   display: flex;
   justify-content: center;
@@ -53,22 +63,7 @@ p {
   border: 2px solid #ddd;
 }
 
-/* Section 3: Volunteering */
-.volunteer-section {
-  background-color: #e8f6e8;
-  padding: 30px;
-  border-radius: 8px;
-  margin-top: 30px;
-}
-
-/* Section 4: Financial Donations */
-.financial-donations {
-  background-color: #fdf5e6;
-  padding: 30px;
-  border-radius: 8px;
-  margin-top: 30px;
-}
-
+/* Financial Donations */
 .eft-section, .paypal-section {
   background-color: white;
   padding: 15px;
@@ -77,6 +72,7 @@ p {
   margin-top: 20px;
 }
 
+/* Buttons */
 .donate-btn {
   background-color: #3498db;
   color: white;
@@ -95,7 +91,3 @@ p {
 .clicked {
   background-color: #2ecc71;
 }
-
-
-
-
