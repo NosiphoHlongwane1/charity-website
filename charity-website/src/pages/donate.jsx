@@ -53,9 +53,9 @@ const Donate = () => {
             for families struggling with basic necessities.
           </p>
           <div className="donation-images">
-            <img src="/media/donation1.jpg" alt="Donation 1" />
-            <img src="/media/donation2.jpg" alt="Donation 2" />
-            <img src="/media/donation3.jpg" alt="Donation 3" />
+            <img src="./media/donation1.jpg" alt="Donation 1" />
+            <img src="./media/donation2.jpg" alt="Donation 2" />
+            <img src="./media/donation3.jpg" alt="Donation 3" />
           </div>
         </div>
 
