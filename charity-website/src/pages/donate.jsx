@@ -1,4 +1,8 @@
 import React, { useState } from "react";
+import donation1 from "../media/donation1.jpg";
+import donation2 from "../media/donation2.jpg";
+import donation3 from "../media/donation3.jpg";
+
 import "./Donate.css"; 
 
 const Donate = () => {
@@ -53,9 +57,9 @@ const Donate = () => {
             for families struggling with basic necessities.
           </p>
           <div className="donation-images">
-            <img src="../media/donation1.jpg" alt="Donation 1" />
-            <img src="../media/donation2.jpg" alt="Donation 2" />
-            <img src="../media/donation3.jpg" alt="Donation 3" />
+           <img src={donation1} alt="Donation 1" />
+            <img src={donation2} alt="Donation 2" />
+            <img src={donation3} alt="Donation 3" />
           </div>
         </div>
 
