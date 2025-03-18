@@ -5,8 +5,8 @@ function Home() {
   return (
     <div className="hero">
       <div className="hero-overlay">
-        <h1>Ending Hunger, One Meal at a Time</h1>
-        <p>Join us in the fight against food insecurity.</p>
+        <h1>Izandla Ziyagezana</h1>
+        <p>An initiative to a better world through assistance and engagement to daily development</p>
       </div>
     </div>
   );
