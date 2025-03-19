@@ -4,6 +4,7 @@ import Navbar from "./pages/components/navbar";
 import Home from "./pages/home";
 import About from "./pages/about";
 import Work from "./pages/work";
+import CountryDetails from "./pages/countrydetails";
 import Donate from "./pages/donate";
 import "./App.css";
 import ".//pages/Home.css";
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/work" element={<Work />} />
+  <Route path="/country/:countryName" element={<CountryDetails />} />
         <Route path="/donate" element={<Donate />} />
       </Routes>
     </Router>
